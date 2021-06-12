@@ -1,0 +1,14 @@
+<ion-header  >
+  <ion-toolbar ion-button [color]="ionicNamedColor">
+    <ion-title>
+      color Header
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button (click)="toggleNamedColor($event)" #button color="danger"></ion-button>
+  <ion-button (click)="toggleNamedColor($event)"  color="primary"></ion-button>
+  <ion-button (click)="toggleNamedColor($event)"  color="success"></ion-button>
+  <ion-button (click)="toggleNamedColor($event)"  color="dark"></ion-button>
+</ion-content>

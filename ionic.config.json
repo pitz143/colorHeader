@@ -1,0 +1,7 @@
+{
+  "name": "colorHeader",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
